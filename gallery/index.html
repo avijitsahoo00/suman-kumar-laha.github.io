@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Gallery & Events</title>
+    <style>
+        h2 {
+            color: #00b3af;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery object:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- menu  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid justify-content-end">
+            <a class="navbar-brand" href="/"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About me
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/academics/">Academics</a></li>
+                            <li><a class="dropdown-item" href="/research/">Research Work & Skill</a></li>
+                            <li><a class="dropdown-item" href="/experience/">Experience</a></li>
+                            <!-- <li><a class="dropdown-item" href="/Achievements">Awards and Achievements</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/gallery/">Events & Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- menu  -->
+    <br>
+    <br>
+    <div class="main-contenar">
+        <br><br>
+        <h1>Gallery & Events</h1>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <object data="v1.mp4"></object>
+            <img src="../p.jpeg" alt="">
+            <!-- <img src="../achive.jpeg" alt=""> -->
+        </div>
+        <h2>Events</h2>
+        <div style="display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    ">
+            <img src="image1.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 1: Final Defense (30th  November 2023) time photograph with the honorable guide Prof. P.K.Sadhu: IIT(ISM), Dhanbad
+            </p>
+            <br>
+
+            <img src="image2.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 2: Pre Submission time Photograph: IIT(ISM), Dhanbad, 19th September, 2022
+            </p>
+            <br>
+            <img src="image3-2.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 3: Hardware Set up of the IoT based experimental work. 
+            </p>
+            <br>
+            <img src="image4.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 4: Hardware circuit of the IoT based experimental work.    </p>
+            <br>
+            <img src="image5.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 5: Presenting one of my Research paper in International Conference ESDA 2021.
+            </p>
+            <br>
+            <img src="image6.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 6: Playing Guitar in our Annual Technical Fest “ PRAYAS” 2021 at Techno International Batanagar.           </p>
+            <br>
+            <img src="image7.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 7 Playing Guitar in our Pre Puja Celebration 2023, in Techno India Group (Head Office) Kolkata, India.
+            </p>
+            <br>
+            <img src="../achive.jpeg" alt="" width="80%" style="min-width: 300px;">
+            <p style="font-size: small;" >Fig. 8: Collecting the “Sahitya Samman” Award on 24th April, 2022 in Kolkata, India.
+            </p>
+            <br>
+        </div>
+        <br> <br>
+        <br> <br>
+    </div>
+    <br> <br>
+
+    <!-- footer  -->
+    <ul class="nav justify-content-center page-footer">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/academics">Academics</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/research">Research Work & Skill</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/experience">Experience</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/gallery">Events & Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+        </li>
+    </ul>
+    <!-- footer  -->
+</body>
+
+</html>

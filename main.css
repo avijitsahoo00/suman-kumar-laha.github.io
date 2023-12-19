@@ -1,0 +1,49 @@
+* {
+    font-family: Akaya Telivigala;
+    font-size: 20px;
+}
+
+.hero-branner {
+    /* height: 30rem; */
+    width: 100%;
+}
+
+#navbarNavDropdown {
+    flex-direction: row-reverse;
+}
+
+.nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar {
+    box-shadow: #434c5540 -4px 5px 0 0;
+}
+
+.main-contenar {
+    margin: auto;
+    max-width: 1024px;
+    /* border: 2px solid red; */
+}
+
+.pragraph-contenar {
+    max-width: 950px;
+    margin: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.current-archivement{
+    max-width: 980px;
+    width: 90%;
+}
+.page-footer{
+    background: linear-gradient(180deg, rgba(9, 19, 19, 0.62) 34.04%, rgba(29, 35, 35, 0.81) 100%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.page-footer > .nav-item > .nav-link{
+    color: rgb(255, 255, 255) !important;
+}
